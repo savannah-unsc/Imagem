@@ -1,0 +1,45 @@
+<html>
+<head>
+		<title>Upload de imagens com PHP</title>
+	    <link rel="stylesheet" href="estilo.css">
+		<meta charset="utf-8"/>
+</head>
+<body>
+<!-- <div class="navbar">
+	<a class="home" href="index.html"> Home</a>
+
+	<form action="exibe.php" method="post">
+		<input type="text" placeholder="Informe o nome" name="pesquisa" required>
+		<button class="botao_pesquisa" type="submit" style="font-size: medium;">Procurar </button>
+	</form>
+</div>
+
+<div class="corpo">
+	<form action="grava.php" method="POST" enctype="multipart/form-data">
+		<label><b>Nome </b></label> <br>
+        <input type="text" class="texto" name="nome"  required>  <br>
+		<label><b>Imagem </b></label> <br>
+		<br><input type="file" name="imagem"/>
+		<br/>
+		<br><input type="submit" value="Gravar"/>
+	</form>
+</div> -->
+
+<div id="corpo">
+<form action="exibe.php" method="post">
+<input type="text" placeholder="Informe o nome" name="pesquisa" required id="inp_pesquisa">
+<button id="botao_pesquisa" type="submit" style="font-size: medium;">Procurar </button>
+</form>
+
+<form action="grava.php" method="POST" enctype="multipart/form-data">
+<input type="text" class="texto" name="nome" placeholder="Nome da Imagem" required id="inp_pesquisa">  <br>
+<br><input type="file" name="imagem"/>
+<br/>
+<br><input type="submit" value="Gravar" id="botao_pesquisa"/>
+</form>
+</div>
+
+
+
+</body>
+</html>
